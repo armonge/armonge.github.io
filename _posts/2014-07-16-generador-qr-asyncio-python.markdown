@@ -3,7 +3,7 @@ layout: post
 title:  "Generador de codigos QR con asyncio"
 date:   2014-07-16 16:28:32
 tags: asyncio python
-redirect-from: "/blog/2/generador-qr-asyncio-python/"
+redirect_from: "/blog/2/generador-qr-asyncio-python/"
 ---
 Ultimamente he estado interesado en aprender [asynncio](https://docs.python.org/3/library/asyncio.html "asyncio") y luego de ver un peguesito en odesk  donde pedían  crear un generador de codigos QR me dije que seria interesante hacer un servidor de codigos QR.
 

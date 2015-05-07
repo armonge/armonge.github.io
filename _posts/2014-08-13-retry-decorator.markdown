@@ -3,7 +3,7 @@ layout: post
 title:  "Retry Decorator"
 date:   2014-08-13 08:29:24
 tags: python decorator
-redirect-from: "/blog/3/retry-decorator/"
+redirect_from: "/blog/3/retry-decorator/"
 ---
 Recientemente tuve un problema con un webapi, resulta que estaba llegando a los limites de uso del API y muchas peticiones estaban fallando. Buscando una manera sencilla de reintentar las tareas se me ocurrio crear un decorador y aca esta el resultado.
 
