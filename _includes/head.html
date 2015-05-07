@@ -23,4 +23,12 @@
     </script>
     <noscript><p><img src="//analytics.armonge.info/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
     <!-- End Piwik Code -->
+    {% if site.enforce_ssl %}
+    <script>
+    var host = "{{ site.enforce_ssl }}"
+    if (window.location.host == host && window.location.protocol != "https:") {
+      window.location.protocol = "https:"
+    }
+    </script>
+    {% endif %}
 </head>
