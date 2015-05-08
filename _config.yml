@@ -17,3 +17,6 @@ kramdown:
 
 gems:
   - jekyll-redirect-from
+
+sass:
+    sass_dir: assets/stylesheets
