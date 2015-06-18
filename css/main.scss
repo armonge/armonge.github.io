@@ -2,6 +2,11 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+    "bootstrap",
+    "syntax-highlighting"
+;
 body{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -25,6 +30,10 @@ body{
     }
 }
 
+.label{
+    display: inline-block;
+}
+
 // Using media queries with like this:
 // @include media-query($palm) {
 //     .wrapper {
@@ -37,11 +46,3 @@ body{
         @content;
     }
 }
-
-
-
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-    "bootstrap",
-    "syntax-highlighting"
-;
